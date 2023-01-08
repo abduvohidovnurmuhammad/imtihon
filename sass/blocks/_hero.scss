@@ -1,0 +1,91 @@
+.hero__static {
+  display: block;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(180deg, #000000 -73.06%, rgba(0, 0, 0, 0) 100%),
+    url(../../img/herostaticimg.png);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-bottom: 220px;
+  padding-right: 40px;
+}
+.hero__static-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  padding-top: 230px;
+}
+.hero {
+  position: relative;
+}
+.hero__discount {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.dell {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #9098b1;
+  width: 73px;
+  height: 27px;
+  position: absolute;
+  top: 78%;
+  right: 62%;
+}
+.off {
+  width: 75.54px;
+  height: 27px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #fb7181;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  top: 68%;
+  right: 37%;
+}
+.hero__list {
+  position: absolute;
+  top: 85%;
+  gap: 30px;
+  display: flex;
+}
+.hero__item {
+  position: relative;
+  width: 334px;
+}
+.static {
+  padding: 0 100px;
+}
+.hero__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #223263;
+  z-index: 3;
+  position: absolute;
+}
+.hero__sum {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #40bfff;
+  z-index: 3;
+  margin-left: auto;
+  position: absolute;
+  top: 67%;
+  right: -2%;
+}

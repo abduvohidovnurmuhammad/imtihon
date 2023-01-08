@@ -1,0 +1,142 @@
+.Bookmark {
+    margin-bottom: 100px;
+}
+
+.bookmark__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-weight: 500;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+  }
+}
+
+.bookmark__inner {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 90px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 53px 0;
+  border-bottom: 3px solid #f6f7f8;
+}
+
+.button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 50%;
+  background-color: #faf2f3;
+  color: #ea3d4b;
+  cursor: pointer;
+}
+
+.image {
+  width: 138px;
+  height: 94px;
+  margin-right: 28px;
+  margin-left: 47px;
+  border-radius: 7px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #262626;
+}
+
+.price {
+  margin: 0 60px 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #262626;
+}
+
+.numberDiv {
+  width: 100%;
+  max-width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 60px;
+  padding: 13px 18px;
+  background-color: #f6f7f8;
+  border-radius: 10px;
+}
+
+.minus,
+.plus {
+  color: #33a0ff;
+  cursor: pointer;
+}
+
+.number {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #262626;
+}
+
+.priceTwo {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #262626;
+}
+
+.total__box {
+  width: 100%;
+  max-width: 374px;
+  margin-left: auto;
+}
+
+.total__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.total__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #22262a;
+}
+
+.total__number {
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #22262a;
+}
+
+.check__btn {
+  width: 100%;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  background-color: #33a0ff;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.footer {
+  padding: 20px 0;
+  background: #bcddfe;
+}
+
+.footer__ecomm {
+  display: flex;
+  align-items: center;
+  width: 221px;
+}
+.footer__iconimg {
+  width: 39px;
+  height: 39px;
+  margin-right: 7px;
+}
+.footer__desk {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22262a;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #22262a;
+  width: 221px;
+}
+.cont__footer {
+  display: flex;
+  gap: 250px;
+}
+.footer__span {
+  background: #f6f7f8;
+  width: 1145px;
+  display: block;
+  height: 1px;
+  margin-bottom: 20px;
+}
+.unicons__blog {
+  gap: 10px;
+  margin-left: 940px;
+}
+.uniconimg {
+  height: 38px;
+  height: 25px;
+}
